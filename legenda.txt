@@ -1,0 +1,4 @@
+P50 (Mediana): É o valor onde 50% das requisições são mais rápidas e 50% são mais lentas. É como o "meio" da sua lista. Se o P50 é 200ms, metade das requisições leva menos de 200ms e a outra metade leva mais.
+P90: É o valor onde 90% das requisições são mais rápidas. Ou seja, 90% das requisições levam menos que esse tempo, e só 10% são mais lentas. Se o P90 é 500ms, significa que a grande maioria (90%) das requisições é respondida em menos de 500ms.
+P95: Parecido com o P90, mas pra 95% das requisições. Se o P95 é 600ms, 95% das requisições são mais rápidas que 600ms, e apenas 5% são mais lentas.
+P99: Esse é pra 99% das requisições. Se o P99 é 1000ms, isso significa que 99% das requisições são respondidas em menos de 1 segundo, e só 1% demora mais que isso.
